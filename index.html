@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Speak Using JavaScript</title>
+    <style>
+       
+       
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url(jar.jpeg);
+            background-size:contain;
+    background-position: center;
+
+
+
+        }
+        .main {
+            text-align: center;
+            padding:  100px 200px;
+        
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(32, 27, 27, 0.1);
+            box-decoration-break: clone;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+       
+        
+       
+        .image-container{
+            color: #ffffff;
+        }
+        h1{
+            color: #fff;
+            font-size: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-display:inherit;
+        }
+        .talk {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(145deg, #071218, #226591);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.talk:hover {
+    background: linear-gradient(145deg, #858e95, #0f9ef0);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.talk:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(42, 41, 41, 0.2), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+        p{
+            font-size: 20px;
+            color: #f4f4f476;
+           lighting-color: #6d6c7713;
+        }
+        h2{
+            font-size: 20px;
+            color: #e7e7e7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   
+    <section class="main">
+        <div class="image-container">
+            <div class="image">
+               
+            </div>
+            <h1> M A R I Y A</h1>
+            <p>I am a virtual Assistant MARIYA,how may i help you?</p>
+        </div>
+        <div class="input">
+        <button class="talk">Click Here</button>
+       <h2 class="content">Click here to speak....</h2>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
